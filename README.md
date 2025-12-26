@@ -27,7 +27,7 @@ american psycho(sliverinstaeyes forked upgrade) is a comprehensive OSINT tool fo
    ```
 3. Run the tool:
    ```
-   python3 silverinstaeye.py
+   python3 American.py
    ```
 ## Configuration
 - The session is saved in `session.json`. Make sure to keep this file secure.
