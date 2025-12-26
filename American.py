@@ -12,30 +12,28 @@ from colorama import Fore
 
 os.system("cls || clear")
 print(colored("""⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-███████╗██╗██╗    ██╗   ██╗███████╗██████╗ ██╗███╗   ██╗███████╗████████╗ █████╗ ███████╗██╗   ██╗███████╗
-██╔════╝██║██║    ██║   ██║██╔════╝██╔══██╗██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝
-███████╗██║██║    ██║   ██║█████╗  ██████╔╝██║██╔██╗ ██║███████╗   ██║   ███████║█████╗   ╚████╔╝ █████╗  
-╚════██║██║██║    ╚██╗ ██╔╝██╔══╝  ██╔══██╗██║██║╚██╗██║╚════██║   ██║   ██╔══██║██╔══╝    ╚██╔╝  ██╔══╝  
-███████║██║███████╗╚████╔╝ ███████╗██║  ██║██║██║ ╚████║███████║   ██║   ██║  ██║███████╗   ██║   ███████╗
-╚══════╝╚═╝╚══════╝ ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝
-                                                                                                       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡇⠀⠀⢰⡆⢘⣆⠀⠀⡆⠀⢸⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠀⣆⣧⡤⠾⢷⡚⠛⢻⣏⢹⡏⠉⣹⠟⡟⣾⠳⣼⢦⣀⣰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠰⣄⡬⢷⣝⢯⣷⢤⣘⣿⣦⣼⣿⣾⣷⣼⣽⣽⣿⣯⡾⢃⣠⣞⠟⠓⢦⣀⠆⠀⠀⡀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠲⣄⣤⣞⡉⠛⢶⣾⡷⠟⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⡿⢿⡛⠻⠿⣥⣤⣶⠞⠉⢓⣤⡴⢁⠄⠀⠀⠀⠀⠀
-⠀⠀⠀⣄⣠⠞⠉⢛⣻⡿⠛⠁⠀⣸⠯⠈⠀⠁⣴⣿⣿⣿⡶⠤⠽⣇⠈⣿⠀⠀⠈⠙⠻⢶⣾⣻⣭⠿⢫⣀⣴⡶⠃⠀⠀
-⠀⢤⣀⣜⣉⣩⣽⠿⠋⠀⠀⠀⠀⣿⠈⠀⠀⢸⣿⣿⣿⣿⣀⠀⠀⠸⠇⢸⡇⠀⠀⠀⠀⠀⠘⠛⢶⣶⣾⣻⡯⠄⠀⣠⠄
-⠀⠤⠬⢭⣿⣿⠋⠀⠀⠀⠀⠀⠀⢻⡀⠀⠀⠀⢿⣿⣿⣿⡿⠋⠁⠀⠀⣼⠁⠀⠀⠀⠀⠀⢀⣴⣫⣏⣙⠛⠒⠚⠋⠁⠀
-⡔⢀⡵⠋⢧⢹⡀⠀⠀⠀⠀⠀⠀⠈⢷⡀⠀⠀⠀⠈⠉⠉⠀⠀⠀⠀⣰⠏⠀⠀⠀⠀⠀⣠⣾⣿⡛⠛⠛⠓⠦⠀⠀⠀⠀
-⣇⠘⠳⠦⠼⠧⠷⣄⣀⠀⠀⠀⠀⠀⠀⠳⢤⣀⠀⠀⠀⠀⠀⢀⣠⠾⠃⠀⠀⠀⣀⣴⣻⣟⡋⠉⠉⢻⠶⠀⠀⠀⠀⠀⠀
-⠈⠑⠒⠒⠀⠀⢄⣀⡴⣯⣵⣖⣦⠤⣀⣀⣀⠉⠙⠒⠒⠒⠚⠉⢁⣀⣠⢤⣖⣿⣷⢯⡉⠉⠙⣲⠞⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠈⠙⠣⢤⡞⠉⢉⡿⠒⢻⢿⡿⠭⣭⡭⠿⣿⡿⠒⠻⣯⡷⡄⠉⠳⣬⠷⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠺⠤⣄⣠⡏⠀⠀⡿⠀⠀⠘⡾⠀⢀⣈⡧⠴⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠙⠒⠓⠒⠒⠚⠛⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-
-                          Author: SilverX                Tg: t.me/silverxvip
+⣿⣿⣿⣿⣿⡛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠟⠿⠿⠿⠿⠷⠶⠶⠶⠶⠶⠶⠶⠤⠤⢤⢤⣤⢤⣤⣤⣤⣤⣤⣤⣤⣄⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀
+⣿⣿⠟⠉⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠛⠛⠛⠛⠓⠒⠲⠂⠀⠀⠀⠀
+⡟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣤⣤⣶⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⢿⣿⣿⣾⣿⣧⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⡋⠀⠀⠀⠀⠀⠈⠹⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⡆⠀⠀⠀⠀⠀⠹⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡅⠀⠀⠀⠀⠀⠀⣿⣿⣿⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣤⣤⣼⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡄⢀⣄⣀⡀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⣿⣿⣿⣿⣿⡟⢻⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢹⣾⣿⣿⣿⣿⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠻⣿⣿⠿⠿⠟⠋⠀⣿⣹⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡔⠒⠲⠶⠿⢿⣿⣿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⣤⣼⣿⣧⡀⠀⠀⠀⠘⠻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣽⣄⣾⣷⣶⣶⣦⣤⣭⣙⣻⡷⢶⣭⡙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠁⠙⡿⡝⠆⠀⢰⣤⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣟⣋⣾⣿⣿⣿⣿⡿⠉⢿⣿⣿⣿⣞⠉⢁⠈⠙⠛⠻⠿⠟⠿⠿⣿⣿⣿⡒⠒⠚⠿⠃⠀⠀⣼⢯⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⣀⣀⣤⣾⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣇⣠⣴⣿⣿⣿⣿⣦⡀⠑⣄⢀⣀⣀⣀⣤⣤⣤⣽⣿⣯⠀⠀⠀⠀⠀⠀⣿⣹⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢀⣠⣦⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⡿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣾⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⣿⣿⣿⢾⣿⣿⣿⣿⣷⡆⠀⠀⠀⠀⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⠛⠛⠛⣻⣿⣏⢤⣀⣀⠲⣄⡀⠀⠀⠈⠉⠉⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⡀⠁⠀⠀⠀⣤⣀⣀⠀⢀⠀⠤⠤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⢀⣀⣤⣤⣠⢾⣿⣿⣿⣯⣽⣿⣿⣿⣿⣦⣤⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⠋⠄⠠⠄⡇⠀⢉⣹⣍⣿⣶⣄⢀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀
+⣿⣿⣿⣿⣿⣿⢿⣉⣰⣶⡞⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣽⣿⠿⢷⢤⣀⠈⠀⠀⣄⠙⡋⠈⠩⡻⣾⣷⡕⡘⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣶⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠛⠠⣴⡟⣿⢲⡤⠈⢷⠈⠒⠀⠑⡝⣿⣿⡦⠘⠇⠀⠀⠀              Tg: t.me/silverxvip
 """,'red'))
 
 Qara = '\033[30m'
@@ -47,7 +45,7 @@ Magenta = '\033[1;35m'
 Cy = '\033[1;36m'
 Aq = '\033[1;37m'
 
-SESSION_FILE = 'session.json'
+SESSION_FILE = 'target_session.json'
 
 def save_session(cl):
     session_data = cl.get_settings()
@@ -80,7 +78,7 @@ def email_ve_telefon_al(api_url, hedef_istifadeci):
         try:
             cavab_json = cavab.json()
         except json.decoder.JSONDecodeError:
-            print(Fore.RED + f"JSON parse error occurred: The data is not in the correct format.")
+            print(Fore.RED + f"[-]JSON parse error occurred: The data is not in the correct format.")
             return 'False', 'False'
         
         telefon = cavab_json.get('phone_number', 'False')
@@ -89,7 +87,7 @@ def email_ve_telefon_al(api_url, hedef_istifadeci):
         return telefon, email
 
     except requests.RequestException as xeta:
-        print(Fore.RED + f"An error occurred while retrieving the phone number and email: {xeta}")
+        print(Fore.RED + f"[-]JAn error occurred while retrieving the phone number and email: {xeta}")
         return 'False', 'False'
 
 
@@ -101,7 +99,7 @@ def postlari_yukle(cl, hedef_istifadeci):
             print(f"[!] {hedef_istifadeci} This is a personal account.")
             following_list = cl.user_following(cl.user_id)
             if user.pk not in following_list:
-                print(f"[X] {hedef_istifadeci} This is a personal account, and you are not following it.")
+                print(f"[-] {hedef_istifadeci} This is a personal account, and you are not following it.")
                 return
             else:
                 print(f"[+] {hedef_istifadeci} This is a personal account, but it is being followed. The posts are being loaded...")
@@ -142,12 +140,12 @@ def postlari_yukle(cl, hedef_istifadeci):
                 print(f"[+] Post {idx + 1} : {fayl_yolu}")
                 time.sleep(1)
             except Exception as e:
-                print(f"[X] Post {idx + 1} - An error occurred while uploading the post.: {str(e)}")
+                print(f"[-] Post {idx + 1} - An error occurred while uploading the post.: {str(e)}")
 
         print(f"[+] {hedef_istifadeci} All posts of the user are stored in folder '{qovluq_adi}'")
 
     except Exception as e:
-        print(f"[X] An error occurred while uploading the posts: {str(e)}")
+        print(f"[-] An error occurred while uploading the posts: {str(e)}")
 
 
 def post_yorumlari_topla(cl, hedef_istifadeci):
@@ -180,7 +178,7 @@ def post_yorumlari_topla(cl, hedef_istifadeci):
 
                     print(f"[+] Post {idx + 1} comments collected.")
                 except Exception as e:
-                    print(f"[X] Post {idx + 1} An error occurred while loading comments: {str(e)}")
+                    print(f"[-] Post {idx + 1} An error occurred while loading comments: {str(e)}")
 
         print(f"[+] All comments were written to the '{yorum_fayl_adi}' file.")
     except Exception as e:
@@ -264,7 +262,7 @@ def dorkla_melumat_topla(hedef_istifadeci):
         links = [url for url in search(google_dork, num_results=10, unique=True) if "https://www.instagram.com/" in url]
 
         if not links:
-            print("[!] Heç bir nəticə tapılmadı.")
+            print("[!] is not")
             return
 
         fayl_adi = f"{hedef_istifadeci}_dork_links.txt"
@@ -442,6 +440,27 @@ def main():
             print(f"\n{Aq}[ {Yasil}+ {Aq}] Information about {hedef_istifadeci} has been saved in the {txt_fayl} file.")
         except Exception as e:
             print(Fore.RED + f"An error occurred: {str(e)}")
+def hedef_ozet_yazdir(cl, hedef_istifadeci):
+    try:
+        user = cl.user_info_by_username(hedef_istifadeci)
+
+        os.system("cls || clear")
+
+        print(colored(f"""
+╔══════════════════════════════════════════════════════════════╗
+║                      TARGET INFORMATION                      ║
+╠══════════════════════════════════════════════════════════════╣
+║  Username        : {user.username:<38} ║
+║  User ID         : {str(user.pk):<38} ║
+║  Posts           : {str(user.media_count):<38} ║
+║  Followers       : {str(user.follower_count):<38} ║
+║  Following       : {str(user.following_count):<38} ║
+║  Private Account : {str(user.is_private):<38} ║
+╚══════════════════════════════════════════════════════════════╝
+""", "red"))
+
+    except Exception as e:
+        print(f"{Qirmizi}[!] Target information could not be retrieved: {e}")
 
     if args.posts:
         postlari_yukle(cl, hedef_istifadeci)
