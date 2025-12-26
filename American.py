@@ -9,8 +9,18 @@ import re
 import argparse
 from bs4 import BeautifulSoup
 from colorama import Fore
+import logging
+from datetime import datetime
+from collections import Counter
 
-os.system("cls || clear")
+logging.basicConfig(
+    filename="user.log",
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s"
+)
+
+def log(msg):
+    logging.info(msg)
 print(colored("""⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⣿⣿⣿⣿⣿⡛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠟⠿⠿⠿⠿⠷⠶⠶⠶⠶⠶⠶⠶⠤⠤⢤⢤⣤⢤⣤⣤⣤⣤⣤⣤⣤⣄⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀
 ⣿⣿⠟⠉⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠛⠛⠛⠛⠓⠒⠲⠂⠀⠀⠀⠀
@@ -182,7 +192,7 @@ def post_yorumlari_topla(cl, hedef_istifadeci):
 
         print(f"[+] All comments were written to the '{yorum_fayl_adi}' file.")
     except Exception as e:
-        print(f"[X] An error occurred while uploading the comments: {str(e)}")
+        print(f"[-] An error occurred while uploading the comments: {str(e)}")
 
 def izleyicileri_ve_izlediklerini_yazdir(cl, hedef_istifadeci, amount=0):
     try:
@@ -365,6 +375,80 @@ def highlightlari_yukle(cl, hedef_istifadeci):
         print(f"\n{Aq}[ {Yasil}+ {Aq}] All highlights have been downloaded.")
     except Exception as e:
         print(f"{Aq}[ {Qirmizi}! {Aq}] An unexpected error occurred: {e}")
+def follower_following_ratio(followers: int, following: int):
+    if following == 0:
+        ratio = 0
+    else:
+        ratio = round(followers / following, 2)
+
+    log(f"Follower/Following Ratio | followers={followers} following={following} ratio={ratio}")
+    return ratio
+def post_frequency(posts):
+    """
+    posts: [
+        {"id": "...", "timestamp": datetime},
+        ...
+    ]
+    """
+
+    if not posts:
+        log("Post Frequency | No posts found")
+        return {"daily": 0, "weekly": 0}
+
+    timestamps = [p["timestamp"] for p in posts]
+    first = min(timestamps)
+    last = max(timestamps)
+
+    days = max((last - first).days, 1)
+    weeks = max(days / 7, 1)
+
+    daily_avg = round(len(posts) / days, 2)
+    weekly_avg = round(len(posts) / weeks, 2)
+
+    log(f"Post Frequency | total_posts={len(posts)} daily_avg={daily_avg} weekly_avg={weekly_avg}")
+
+    return {
+        "daily": daily_avg,
+        "weekly": weekly_avg
+    }
+def average_engagement(posts):
+    if not posts:
+        log("Average Engagement | No posts found")
+        return {"avg_likes": 0, "avg_comments": 0}
+
+    total_likes = sum(p.get("likes", 0) for p in posts)
+    total_comments = sum(p.get("comments", 0) for p in posts)
+
+    avg_likes = round(total_likes / len(posts), 2)
+    avg_comments = round(total_comments / len(posts), 2)
+
+    log(
+        f"Average Engagement | posts={len(posts)} "
+        f"avg_likes={avg_likes} avg_comments={avg_comments}"
+    )
+
+    return {
+        "avg_likes": avg_likes,
+        "avg_comments": avg_comments
+    }
+def top_engagement_post(posts):
+    if not posts:
+        log("Top Engagement Post | No posts found")
+        return None
+
+    def engagement(p):
+        return p.get("likes", 0) + p.get("comments", 0)
+
+    top_post = max(posts, key=engagement)
+
+    log(
+        f"Top Engagement Post | post_id={top_post.get('id')} "
+        f"likes={top_post.get('likes')} "
+        f"comments={top_post.get('comments')} "
+        f"total_engagement={engagement(top_post)}"
+    )
+
+    return top_post
 
 def main():
     parser = argparse.ArgumentParser(description="Instagram User Information and Content Downloader")
