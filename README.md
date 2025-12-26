@@ -3,7 +3,7 @@
 ## Overview
 american psycho(sliverinstaeyes forked upgrade) is a comprehensive OSINT tool for Instagram. It gathers extensive information about the target user. Support my GitHub repo by giving it a star! ⭐
 
- ![Image Alt](https://github.com/silverxpymaster/SilverInstaEye/blob/809bd82c7a43ad254cbf6f76e9fc193ffb6b659c/Screenshot%20from%202025-03-23%2015-36-15.png)
+ ![Image Alt](Ekran_Alıntısı-removebg-preview.png)
 
 ## Features
 ```sh
