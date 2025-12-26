@@ -38,6 +38,9 @@ This tool is intended for educational and research purposes only. Unauthorized u
 
 ## Author
 - **American-psycho**
-- Telegram: [t.me/silverxvip](https://t.me/silverxvip)
-- YouTube: [silverxcyber](https://www.youtube.com/@silverxcyber)
+- Discord Servers: {reduck}[sh3dow_his_server](https://discord.gg/YEXVBr9k)
+<h2>Servers where sh3dowun is active</h2>
+- Discord Servers: [](https://discord.gg/NWdqgsUH)
+- Discord Servers: [](https://discord.gg/QPexccKS)
+- Discor Servers:  [](https://discord.gg/DT6ANB48)
 
