@@ -566,6 +566,8 @@ def hedef_ozet_yazdir(cl, hedef_istifadeci):
 
     if args.follow:
         izleyicileri_ve_izlediklerini_yazdir(cl, hedef_istifadeci)
-
+     top_engagement_post()
+     post_frequency()
+     follower_following_ratio()
 if __name__ == "__main__":
     main()
